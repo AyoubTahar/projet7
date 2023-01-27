@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from './Rating';
 
 const Information = (data) => {
 const tagdata = data.tagdata
@@ -15,9 +16,10 @@ const tagdata = data.tagdata
             )
         }
         </div>
+        <Rating rating={tagdata.rating} />
         </div>
         
-            
+
     );
 };
 
