@@ -1,0 +1,29 @@
+.banner{
+
+        margin-top: 16px;
+        background: url(../../../public/bannerM.svg) center/cover;
+        height: 111px;
+        border-radius: 10px;
+        display: flex;
+   
+
+    p{
+        margin: 31px 102px 32px 16px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        white-space: nowrap;
+        color: #FFFFFF;
+    }
+}
+
+.bannerabout{
+    margin-top: 16px;
+        background: url(../../assets/img/gustavo-alves-YOXSC4zRcxw-unsplash.svg) center/cover;
+        height: 223px;
+        border-radius: 10px;
+        display: flex;
+
+        
+}

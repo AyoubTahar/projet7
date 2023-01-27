@@ -1,0 +1,32 @@
+.title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    margin-bottom: 5px;
+    color: $color-1;
+}
+
+.location{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    color: $color-1;
+}
+
+.tagcontainer{
+    display: flex;
+    margin-top: 10px; 
+}
+
+.tag{
+    height: 18px;
+    width: 84px;
+    border-radius: 5px;
+    background-color: $color-1;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+}

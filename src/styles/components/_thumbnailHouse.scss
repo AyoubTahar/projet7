@@ -1,0 +1,33 @@
+.thumbnailHouse{
+                display: flex;
+                flex-direction: column;
+
+
+    div{
+        height: 255px;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-end;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    }
+    
+    
+
+    img{
+        height: 255px;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        background: #FF6060;
+        
+    }
+
+    p{
+        position: absolute;
+        color: white;
+        margin: 19.71px 15px 19.71px 15px;
+    }
+
+}
