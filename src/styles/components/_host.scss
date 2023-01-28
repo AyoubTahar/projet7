@@ -1,0 +1,26 @@
+.host{
+    display: flex;
+    
+
+    p{
+        width : min-content;
+        font-size: 14px;
+        color: $color-1;
+    }
+
+    img{
+        Width:32px;
+        Height:32px;
+        margin-left: 11px;
+        border-radius: 30px;
+        background: #C4C4C4;
+    }
+}
+
+.hostrate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+}

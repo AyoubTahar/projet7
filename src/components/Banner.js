@@ -11,8 +11,8 @@ const Banner = () => {
         )}
         else {
             return ( <div className='banner' >
-            <p>Chez vous, <br />
-            partout et ailleurs </p>
+            <h1>Chez vous, <br />
+            partout et ailleurs </h1>
         </div>)
         };
     }

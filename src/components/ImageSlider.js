@@ -19,7 +19,7 @@ const goToNext = () => {
             <div className='imageslider'style={{backgroundImage : `url(${slider.housedata.pictures[currentIndex]})`  }}></div>
             <div className="rightarrow" onClick={goToNext}>  ❱ </div>
             <div className="position">
-            {currentIndex + 1}/{slider.housedata.pictures.length}
+            <p>{currentIndex + 1}/{slider.housedata.pictures.length}</p>
             </div>
         </div>
     );

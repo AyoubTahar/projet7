@@ -16,7 +16,7 @@ const ThumbnailHouse = () => {
                 <NavLink to={"/fichelogement/"+thumbnailHouse.id} key={thumbnailHouse.id} state = { {housedata : thumbnailHouse}}> 
                 <div > 
                     <img src={thumbnailHouse.cover} alt={thumbnailHouse.description} /> 
-                    <p>{thumbnailHouse.title}</p> 
+                    <h2>{thumbnailHouse.title}</h2> 
                 </div>
                 </NavLink>)
             }
