@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -20px;
+
+    img{
+        color: white;
+    }
+
+    p{
+        color: white;
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 142.6%;
+    }
+}
