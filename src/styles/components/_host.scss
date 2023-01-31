@@ -17,11 +17,35 @@
     }
 }
 
-.hostrate{
+.host-rate{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 25px
     
+}
+
+@media screen and (min-width: 768px) {
+    .host{
+        p{
+            font-size : 18px;
+        }
+
+        img{
+            width: 64px;
+            height: 64px;
+        }
+    }
+
+    .host-rate{
+        margin: 0;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .desktop-position{
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 }

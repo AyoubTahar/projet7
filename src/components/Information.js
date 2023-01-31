@@ -8,6 +8,7 @@ const tagdata = data.tagdata
     return (
        <div className="information-container">
         <div className="information">
+        <div className="desktop-position">
         <div className="name-tag-container">
         <div className="name">
                 <h1 className="title">{tagdata.title}</h1>
@@ -21,9 +22,10 @@ const tagdata = data.tagdata
         }
         </div>
         </div>
-        <div className="hostrate">
+        <div className="host-rate">
         <Rating rating={tagdata.rating} />
         <Host hostinfo={tagdata.host}/>
+        </div>
         </div>
         </div>
         <Dropdown equipement={tagdata.equipments} description={tagdata.description} />

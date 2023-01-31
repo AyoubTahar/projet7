@@ -13,3 +13,17 @@
     line-height: 142.6%;
     color: $color-1;
 }
+
+@media screen and (min-width: 768px) {
+    .title{
+        font-size: 36px;
+    }
+
+    .location{
+        font-size: 18px;
+    }
+
+    .information-container{
+        margin-top: 30px;
+    }
+}

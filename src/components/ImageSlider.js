@@ -13,11 +13,17 @@ const goToNext = () => {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex)
 }
+
+
+
+
+
+
     return (
         <div className='slider' >
-            <div className="leftarrow" onClick={goToprevious}> ❰ </div>
+            <div className={(slider.housedata.pictures.length > 1 ? "leftarrow" : "hide") } onClick={goToprevious}> ❰ </div>
             <div className='imageslider'style={{backgroundImage : `url(${slider.housedata.pictures[currentIndex]})`  }}></div>
-            <div className="rightarrow" onClick={goToNext}>  ❱ </div>
+            <div className={(slider.housedata.pictures.length > 1 ? "rightarrow" : "hide") } onClick={goToNext}>  ❱ </div>
             <div className="position">
             <p>{currentIndex + 1}/{slider.housedata.pictures.length}</p>
             </div>

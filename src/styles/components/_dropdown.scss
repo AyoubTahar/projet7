@@ -76,3 +76,31 @@
     visibility: hidden;
     transition: 0ms ;
  }
+
+ @media screen and (min-width : 768px) {
+    .dropdown{
+        margin-top: 30px;
+        height: 47px;
+        h2{
+            font-size: 24px;
+        }
+    }
+
+    .dropdown-menu{
+        p{
+            margin-top: 35px;
+            font-size: 24px;
+            font-weight: 400;
+            
+        }
+        ul{
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 35px;
+        }
+    }
+    
+    .desktop-position{
+        display: flex;
+    }
+ }

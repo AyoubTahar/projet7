@@ -3,9 +3,21 @@
         width: 145px;
 
     img{
-        height: 47px;
+        height: 100%;
         width:  100%;
 
     }
 
+}
+
+@media screen and (min-width : 768px) {
+    .logo{
+        height: 68px;
+        width: 210px;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
 }

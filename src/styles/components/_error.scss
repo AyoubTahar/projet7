@@ -33,3 +33,24 @@
         color: $color-1;
     }
 }
+
+@media screen and (min-width : 768px) {
+
+    .error-content{
+        h1{
+            font-size: 280px;
+        }
+        
+        h2{
+            font-size: 36px;
+
+            br{
+                display: none;
+            }
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
