@@ -14,7 +14,7 @@ const ThumbnailHouse = () => {
         <div className="thumbnailHouse">
             {
                 data.map((thumbnailHouse) => 
-                <NavLink to={"/fichelogement/"+thumbnailHouse.id} key={thumbnailHouse.id} state = { {housedata : thumbnailHouse}}> 
+                <NavLink to="/fichelogement" key={thumbnailHouse.id} state = { {housedata : thumbnailHouse}}> 
                 <div > 
                     <img src={thumbnailHouse.cover} alt='Aperçu du logement' /> 
                     <h2>{thumbnailHouse.title}</h2> 
